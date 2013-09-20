@@ -1,0 +1,134 @@
+body{
+  font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+}
+.banner{
+  margin:auto;
+	line-height:100px;
+	  text-align: center;
+	    margin-top: 30px;
+}
+#loadingFrame {
+  margin:auto;
+	line-height:100px;
+	  text-align: center;
+	    margin-top: 30px;
+	      padding-bottom: 10px;
+}
+#formulario{
+  margin: auto;
+	margin-top: 50px;
+	  width: 400px;
+}
+.formCep {
+  display: table-cell;
+	padding-left: 97px;
+	  vertical-align: bottom;
+	    position: relative;
+}
+.formSubmit {
+  display: table-cell;
+	vertical-align: bottom;
+	  position: relative;
+}
+.labelCep {
+  vertical-align: bottom;
+	font-size: 14px;
+}
+.labelSubmit {
+  vertical-align: bottom;
+}
+#cepDestino{
+  font-family:Arial, Helvetica, sans-serif;
+    font-size:36px;
+      color:#999;
+        border: 1px solid #CCC;
+          /*box-shadow: 1px 1px 2px #000000;
+            -webkit-box-shadow: 1px 1px 2px #000000;
+              -moz-box-shadow: 1px 1px 2px #000000;*/
+                  background-color: #F7F7F7;
+}
+#btnSubmit{
+  font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+      width: 200px;
+        background-color: #F7F7F7;
+          height: 45px;
+            margin-left: 20px;
+              border: 1px solid #CCC;
+}
+.headerTitulo{
+  clear: both;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	  font-size: 20px;
+		font-weight: bold;
+		  margin: 20px 0 10px 50px;
+			text-align: center;
+			  width: 100%;
+}
+.celImage {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+      width: 160px;
+        height:50px;
+}
+.celValor{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+      width: 180px;
+        height:50px;
+          margin: 0px 10px 0px 10px;
+            text-align:center;
+              line-height:50px;
+                border: 1px solid #EBEBEB;
+}
+.celPrazo {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+      width: 200px;
+        height:50px;
+          text-align:center;
+            line-height:50px;
+              border: 1px solid #EBEBEB;
+}
+.linhaServico td {
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+      height:40px;
+		text-align:center;
+		  padding-top: 10px;
+}
+.celImageHeader {
+  width: 160px;
+}
+.celValorHeader {
+  width: 180px;
+	margin: 0px 10px 0px 10px;
+}
+.celPrazoHeader {
+  width: 200px;
+}
+#linhaInfos {
+  font-size:14px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#cep{
+  padding-right: 5px;
+}
+#cidade{
+  padding: 0 5px 0 5px;
+}
+#uf{
+  padding-left: 5px;
+}
+.cepSpan{
+  font-weight:bold;
+}
+.msgErro{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+	  height:50px;
+	    text-align:center;
+		  color: #C33;
+		    border: 1px solid #EBEBEB;
+}
